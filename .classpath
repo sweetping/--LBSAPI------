@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="src" path="gen"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.ANDROID_FRAMEWORK"/>
+	<classpathentry kind="con" path="com.android.ide.eclipse.adt.LIBRARIES"/>
+	<classpathentry kind="lib" path="F:/LBS/BaiduMap_AndroidSDK_v3.5.0_Lib/baidumapapi_v3_5_0.jar"/>
+	<classpathentry kind="lib" path="F:/LBS/libs/BaiduLBS_Android.jar"/>
+	<classpathentry kind="lib" path="D:/WANGXIN/android-sdk-windows/platforms/android-19/android.jar"/>
+	<classpathentry kind="output" path="bin/classes"/>
+</classpath>

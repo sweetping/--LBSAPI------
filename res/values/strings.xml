@@ -1,0 +1,9 @@
+<resources>
+
+    <string name="app_name">Location</string>
+    <string name="basemap_name">BaseMapDemo</string>
+	<string name="city">城市名</string>
+	<string name="address">地址</string>
+	<string name="input_city">请输入城市名</string>
+	<string name="input_address">请输入地址</string>
+</resources>

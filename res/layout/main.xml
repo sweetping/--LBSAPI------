@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center_horizontal"
+	    android:orientation="vertical" >
+	    
+		<LinearLayout
+		   	android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:gravity="center_horizontal"
+	    	android:orientation="horizontal">
+	    	<TextView
+	        	android:id="@+id/cityName"
+	        	android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:layout_weight="1"
+	        	android:text="@string/city"
+	        />
+	    	<EditText
+	        	android:id="@+id/city"
+	        	android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:layout_weight="1"
+	        	android:hint="@string/input_city" 
+	        	>
+	    	</EditText>    
+		</LinearLayout>
+		
+		<LinearLayout
+			android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:gravity="center_horizontal"
+	    	android:orientation="horizontal">
+	    	<TextView
+	        	android:id="@+id/addressName"
+	        	android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:layout_weight="1"
+	        	android:text="@string/address" >
+	    	</TextView>
+
+	    	<EditText
+	        	android:id="@+id/address"
+	        	android:layout_width="wrap_content"
+	        	android:layout_height="wrap_content"
+	        	android:layout_weight="1"
+	        	android:hint="@string/input_address"
+	        	
+	        >
+	    	</EditText>
+	    	</LinearLayout>
+	</LinearLayout>
+	<LinearLayout
+	    	android:layout_width="match_parent"
+	    	android:layout_height="wrap_content"
+	    	android:gravity="center_horizontal"
+	    	android:orientation="horizontal">
+
+		<Button
+		    android:id="@+id/search"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_weight="1"
+		    android:text="查询" />
+
+	<Button
+        android:id="@+id/searchWithNewActivy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询以新视图打开" 
+        android:layout_weight="1"/>
+	</LinearLayout>
+
+	<RelativeLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:focusable="true" >
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:clickable="true" />
+
+    <Button
+        android:id="@+id/location"
+        android:layout_height="50dip"
+        android:layout_width="50dip"
+        />
+
+	</RelativeLayout>
+</LinearLayout>
